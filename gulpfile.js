@@ -52,7 +52,9 @@ const PATHS = {
 gulp.task('sass', () => {
     return gulp.src(PATHS.src.scss)
         .pipe(sourcemaps.init())
-        .pipe(sass())
+        .pipe(sass({
+            includePaths: [path.join(__dirname, '/node_modules')]
+        }))
         .pipe(prefixer())
         .pipe(cssmin())
         .pipe(sourcemaps.write())
