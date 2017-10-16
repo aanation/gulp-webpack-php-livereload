@@ -1,0 +1,8 @@
+@import "./styles/variables";
+
+$ASSETS_PATH: "/assets";
+
+body {
+    background-color: $color; 
+    background: url($ASSETS_PATH + '/img/test.png'); 
+}

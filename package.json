@@ -1,0 +1,33 @@
+{
+  "name": "Gulp-webpack-scss-babel-php",
+  "version": "1.0.0",
+  "description": "gulp tasks for simple-php-projects with modern frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "42px",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-connect-php": "^1.0.1",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-url-replace": "^1.0.2",
+    "gulp-util": "^3.0.8",
+    "imagemin-pngquant": "^5.0.1",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.3",
+    "webpack": "^3.7.1",
+    "webpack-stream": "^4.0.0"
+  }
+}
